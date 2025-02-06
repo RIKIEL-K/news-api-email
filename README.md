@@ -1,25 +1,31 @@
-# News API - Recevez les News du Jour par Email  
+# News API - Receive Daily News by Email  
 
-Ce projet est une **API Web développée en Python** qui permet aux utilisateurs de **saisir leur adresse e-mail** et de recevoir les **dernières actualités** directement dans leur boîte de réception.  
+This project is a **Web API developed in Python** that allows users to **enter their email address** and receive the **latest news** directly in their inbox.  
 
-## Fonctionnalités  
-- ✅ Récupération des news via l'API [NewsAPI](https://newsapi.org/)  
-- ✅ Envoi des news par email via **SMTP**  
-- ✅ Interface utilisateur simple avec **Streamlit**  
+## Features  
+- ✅ Fetch news using the [NewsAPI](https://newsapi.org/)  
+- ✅ Send news via email using **SMTP**  
+- ✅ Simple user interface with **Streamlit**  
 
 ---
 
-## Technologies utilisées  
+## Technologies Used  
 - **Python**  
-- **Requests** (pour récupérer les news)  
-- **Smtplib** (pour l'envoi des emails)  
-- **Streamlit** (interface utilisateur simple)  
+- **Requests** (for fetching news)  
+- **Smtplib** (for sending emails)  
+- **Streamlit** (simple user interface)  
+
+---
+
+## Preview  
+- ![Application Interface](images/newsImg.png)  
 
 ---
 
 ## Installation  
 
-1. **Cloner le projet**  
+1. **Clone the project**  
    ```bash
-   git clone https://github.com/votre-repo/news-api-email.git
+   git clone https://github.com/RIKIEL-K/news-api-email.git
    cd news-api-email
+

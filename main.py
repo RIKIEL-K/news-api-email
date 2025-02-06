@@ -1,10 +1,14 @@
 import requests
 from send_email import send_email
+from dotenv import load_dotenv
 import streamlit as st
+import os
+
+load_dotenv()
 
 topic = "tesla"
-API_Key = "c8b8e95bcc724a73a6a07f384a6992a1"
-url = f"https://newsapi.org/v2/everything?q={topic}&from=2025-01-06&sortBy=publishedAt&apiKey=c8b8e95bcc724a73a6a07f384a6992a1&language=en"
+API_Key = os.getenv("API_KEY")
+url = f"https://newsapi.org/v2/everything?q={topic}&from=2025-01-06&sortBy=publishedAt&apiKey={API_Key}&language=en"
 request = requests.get(url)
 content = request.json()
 
